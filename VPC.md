@@ -1,3 +1,17 @@
+# Virtual Private Cloud
+## Introduction
+## Build a Custom VPC
+## Network Address Translation (NAT)
+## Access Control Lists (ACL)
+## Custom VPC and ELBs
+## VPC Flow Logs
+## Bastions
+## Direct Connect
+## Setting Up a VPN Over a Direct Connect Connection
+## Global Accelerator
+## VPC End Points
+## Summary
+
 We cannot route traffic to a __NAT gateway__ or __VPC gateway__ endpoints through a __VPC peering__ connection, a __VPN connection__, or __AWS Direct Connect__. A NAT gateway or VPC gateway endpoints cannot be used by resources on the other side of these connections. Conversely, a NAT gateway // VPC gateway endpoints cannot send traffic over VPC endpoints, AWS VPN connections, Direct Connect or VPC Peering connections either.
 
 Every route table contains a __local route__ for communication within the VPC over IPv4. We __cannot modify or delete__ these routes.
