@@ -20,7 +20,7 @@
 - Security Groups can't span VPCs
 
 # NAT Instances vs NAT Gateways
-## Net Instances 
+## NAT Instances 
 - Nat instance = EC2 instance used to allow access to internet (outside the VPC/AWS)
 - When creating a NAT instance, Disable Source/Destination Check on the Instance
 - NAT instances must be in a public subnet
@@ -29,7 +29,7 @@
 - You can create high availability using Autoscaling Groups, multiple subnets in different AZs, and a script to automate failover
 - Behind a Security Group
 
-## Net Gateways
+## NAT Gateways
 - Redundant inside the Availability Zone
 - Preferred by the enterprise
 - Starts at 5GBps and scales currently to 45Gbps
