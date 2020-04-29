@@ -21,6 +21,7 @@
 
 # NAT Instances vs NAT Gateways
 ## Net Instances 
+- Nat instance = EC2 instance used to allow access to internet (outside the VPC/AWS)
 - When creating a NAT instance, Disable Source/Destination Check on the Instance
 - NAT instances must be in a public subnet
 - There must be a route out of the private subnet to the NAT instance, in order for this to work
